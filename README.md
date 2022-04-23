@@ -1,6 +1,6 @@
 # JWLIA Replica
 
-This is a replica of the site for Level Ground, a previous Resilient Coders client.
+This is a replica of the site for JWLIA, a previous Resilient Coders client.
 
 Live Site: [JWLIA](https://jwliaproto.netlify.app/)
 
