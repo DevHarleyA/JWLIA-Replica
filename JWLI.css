@@ -1,0 +1,462 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* Clearfix Hack */
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
+/* Layout Style */
+
+header {
+    height: 50px;
+}
+
+.parent {
+    height: 650px;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+
+footer {
+    height: 200px;
+    clear: both;
+}
+
+/* Header Styling */
+
+.mainNav li {
+    float: left;
+    width: 12%;
+    list-style: none;
+}
+
+.mainNav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.75rem;;
+}
+
+.show {
+    display: none;
+}
+
+/* parent Top styling (section 1) */
+
+.parentTop {
+    height: 600px;
+}
+
+.topLeft, .topRight {
+    float: left;
+    width: 50%;
+}
+
+.topLeft {
+    text-align: center;
+}
+
+.intro {
+    font-size: 3rem;
+    color: #3d434c;
+    font-weight: 300;
+}
+
+.blurb {
+    padding: 0 16%;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.topLeftp {
+    text-align: left;
+    margin-left: 12%;
+    font-size: 1.25rem;
+}
+
+.emailTop , .submitButTop {
+    float: left;
+    border-radius: 5px;
+}
+
+.submitButTop {
+    width: 19%;
+    height: 30px;
+    margin-left: 3%;
+    background: #b8c5cf;
+    color: white;
+}
+
+.emailTop {
+    margin-left: 12%;
+    height: 30px;
+    padding-right: 20px;
+    width: 44%;
+}
+
+.silo {
+    height: 350px;
+    margin-top: 1%;
+}
+
+.greyBg {
+    background-color: #f1f3f5;
+}
+
+.parentTopBottom {
+    text-align: center;
+}
+
+.parentTopBottom h3 {
+    font-size: 3rem;
+    font-weight: 100;
+    margin: 3% 13%;
+}
+
+.parentTopBottom li {
+    float: left;
+    list-style: none;
+    width: 17%;
+    margin-left: 20%;
+    border-top: 2px solid pink;
+}
+
+.greyText {
+    clear: both;
+    padding: 1% 8%;
+}
+
+/* parent Middle styling (section 2) */
+
+.middle {
+    padding: 5%;
+}
+
+.ourHistory {
+    width: 65%;
+    float: left;
+}
+
+.imgHistory {
+    width: 35%;
+    float: left;
+}
+
+.ourHistory h4 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: -2%;
+}
+
+.ourHistory>p {
+    font-size: 2.15rem;
+    padding-right: 6%;
+    line-height: 3rem;
+}
+
+/* parent last styling (section 3) */
+
+.whoWeAre {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+.founder {
+    float: left;
+    width: 40%;
+}
+
+.bio {
+    float: left;
+    width: 60%
+}
+
+.bio h3 {
+    font-size: 1.5rem;
+}
+
+.bio p {
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+.lastTop {
+    border: 1px solid lightgrey;
+    margin: 0 17%;
+    padding: 1% 3%;
+}
+
+.lastParentLeft, .lastParentRight {
+    float: left;
+    width: 50%;
+    padding: 0 6%;
+}
+
+.fishFam {
+    padding: 2rem 2rem 0 0;
+    font-weight: 100;
+    color: grey;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.simmons {
+    width: 25%;
+    padding: 3rem 2rem 0 0;
+}
+
+.fishFamP, .simmonsP {
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+/* footer styling */
+
+.topFoot {
+    width: 100%;
+    height: 50px;
+    background: #b8c5d0;
+}
+
+.signUp {
+    color: white;
+    font-size: 2rem;
+    padding: 1% 5%;
+}
+
+.emailBottom {
+    padding: 1% 0 1% 35%;
+}
+
+.input-field {
+    padding: 3%;
+}
+
+.submitButBottom {
+    width: 11%;
+    height: 30px;
+    margin: 1% 1% 0 2%;
+    background: #8f9ca3;
+    color: white;
+    border-radius: 5px;
+}
+
+.emailBottom, .submitButBottom, .signUp {
+    float: left;
+}
+
+.bottomFoot {
+    width: 100%;
+    height: 50px;
+}
+
+.smallCopy {
+    float: left;
+    font-size: 1rem;
+    color: white;
+    padding-left: 10%;
+    padding-top: 1%;
+}
+
+.footList1 {
+    padding: 0 30%;
+}
+
+.footList1 li {
+    float: left;
+    list-style: none;
+    width: 33%;
+}
+
+.footList1 a {
+    color: white;
+    text-decoration: none; 
+}
+
+.bottomFootLeft, .bottomFootRight {
+    height: 20px;
+    width: 50%;
+    background: #8f9ca3;
+    float: left;
+}
+
+.lastFoot {
+    background: #8f9ca3;
+    width: 100%;
+    padding: 1% 2%;
+}
+
+.footBox {
+    float: left;
+    width: 16.66%;
+}
+
+.footBox li {
+    list-style: none;
+}
+
+.footBox a {
+    color: white;
+    text-decoration: none;
+}
+
+.footBoxMain , .finalNav {
+    width: 50%;
+    float: left;
+}
+
+.lastList {
+    padding: 0 15%;
+}
+
+.lastList li {
+    float: left;
+    list-style: none;
+    width: 25%;
+}
+
+.lastList a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Media Queries */
+
+@media all and (max-width: 1024px) {
+    .ourHistory>p {
+        font-size: 1.75rem;
+    }
+}
+
+@media (min-width: 427px) and (max-width: 768px) {
+    .silo {
+        width: 100%;
+    }
+
+    .blurb {
+        padding: 0 5%;
+        font-size: 1rem;
+    }
+
+    .topLeftp {
+        margin: 0 0 3% 0;
+    }
+
+    .imgHistory img {
+        height: 210px;
+    }
+
+    .ourHistory>p {
+        font-size: 1.25rem;
+    }
+
+    .middle {
+        padding: 5% 5% 0 5%;
+    }
+
+    .lastTop {
+        margin: 0;
+    }
+
+    .emailBottom {
+        padding: 1% 0 1% 10%;
+    }
+}
+
+@media all and (max-width: 426px) {
+    .hidden, .silo, .imgHistory>p, .imgHistory {
+        display: none;
+    }
+
+    .ourHistory {
+        width: 100%;
+    }
+
+    /* .topBox {
+        height: 400px;
+    } */
+
+    .ourHistory>p {
+        font-size: 1.3rem;
+    }
+
+    .show {
+        display: inline-block;
+    }
+
+    .topLeft {
+        width: 100%;
+    }
+
+    .blurb {
+        padding: 0 5%;
+    }
+
+    .parentTopBottom h3 {
+        font-size: 2rem;
+    }
+
+    .lastTop {
+        margin: 0%;
+    }
+
+    .founder img {
+        height: 155px;
+    }
+
+    .bio {
+        width: 100%;
+    }
+
+    .fishFam {
+        font-size: 2rem;
+        padding: 0;
+    }
+
+    .fishFamP, .simmonsP {
+        line-height: 1.5rem;
+        font-size: 1.3rem;
+    }
+
+    .simmons {
+        width: 100%;
+        padding: 1rem 2rem 0 0;
+    }
+
+}
+
+@media all and (max-width: 379px) {
+    .parentTop {
+        height: 650px;
+    }
+
+.midClass {
+        height: 680px;
+    }
+}
+
+@media all and (max-width: 330px) {
+    .intro {
+        font-size: 2rem;
+    }
+    .midClass {
+        height: 800px;
+    }
+}
